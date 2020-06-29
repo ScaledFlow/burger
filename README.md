@@ -1,1 +1,15 @@
 # burger
+
+Settings for agile-forest-72234
+
+Connection String
+
+mysql://wf8min6ot238nq1u:nrdruycwl3t89kmm@g8mh6ge01lu2z3n1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/uykpxqmtjmio4fo7
+
+You can use your connection information to connect manually through a client such as HeidiSQL to administer your database.
+
+Host g8mh6ge01lu2z3n1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+Username wf8min6ot238nq1u
+Password nrdruycwl3t89kmm
+Port 3306
+Database uykpxqmtjmio4fo7

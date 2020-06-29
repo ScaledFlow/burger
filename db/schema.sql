@@ -14,3 +14,5 @@ CREATE TABLE burgers (
 );
 
 INSERT INTO burgers (burger_name, devoured) VALUES ('Standard Burger', false);
+
+SELECT * FROM burgers;
