@@ -8,7 +8,7 @@ var router = express.Router();
 
 var burger = require("../models/burger.js");
 
-console.log("made it to bugers_controller.js in controllers after require");
+console.log("made it to burgers_controller.js in controllers after require");
 
 // test test connection
 var connection = mysql.createConnection({
@@ -31,6 +31,17 @@ router.get("/", function (req, res) {
     res.render("index", { burgers: data });
   });
 });
+
+// Create all our routes and set up logic within those routes where required.
+// router.get("/", function (req, res) {
+//   burger.all(function (data) {
+//     var hbsObject = {
+//       burger: data,
+//     };
+//     console.log(hbsObject);
+//     res.render("index", hbsObject);
+//   });
+// });
 
 // burger.all(function (data) {
 //   var hbsObject = {
