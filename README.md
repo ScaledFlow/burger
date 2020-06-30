@@ -8,7 +8,7 @@
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Run](#run)
+- [Launch](#launch)
 - [Features](#features)
 - [Status](#status)
 - [Contact](#contact)
@@ -33,6 +33,7 @@
 - npm i express
 - npm i express-handlebars
 - npm i body-parser
+- node server.js
 ```
 
 Use scripts in schema.sql to create tables.
@@ -41,11 +42,9 @@ Deploy db and code to Heroku
 
 Modify connections.js to point to Heroku db
 
-## Run
+## Launch
 
-```
-- node server.js
-```
+- [Burger App](https://pacific-reaches-15442.herokuapp.com/)
 
 ## Features
 
@@ -54,7 +53,7 @@ Modify connections.js to point to Heroku db
 
 ## To-do list:
 
-- None
+- None.
 
 ## Status
 
