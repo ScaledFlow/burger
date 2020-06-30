@@ -50,7 +50,7 @@ Modify connections.js to point to Heroku db
 ## Features
 
 - The site demonstrates the use of the MVC design pattern, express, express-handlebars, and MySQL hosted on Heroku.
-- The site allows the creation of an item and a change in its state.
+- The site demonstrates the creation of an item and a state change using the MVC pattern.
 
 ## To-do list:
 
