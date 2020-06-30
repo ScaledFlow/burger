@@ -2,22 +2,16 @@ body {
   background-color: #ebba34;
 }
 
-.buttonx {
+.button {
   background-color: #4287f5; /* Blue */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-
-  margin: 0;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  border-radius: 4px;
 }
 
 h1 {
