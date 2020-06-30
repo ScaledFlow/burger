@@ -5,6 +5,7 @@
 ## Table of contents
 
 - [General info](#general-info)
+- [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Run](#run)
@@ -16,9 +17,13 @@
 
 - Burger App written John Leintz.
 
+## Screenshots
+
+![](/public/assets/img/burger_app.GIF)
+
 ## Technologies
 
-- The site uses Javascript, Node, MySQL, Express, Handlebars and MVC design pattern.
+- This site uses Javascript, Node.js, MySQL, Express, Express_Handlebars and the MVC design pattern.
 
 ## Setup
 
@@ -30,7 +35,7 @@
 - npm i body-parser
 ```
 
-Use scripts in schema.sql to create tables. Optional cvs database load files are included.
+Use scripts in schema.sql to create tables.
 
 Deploy db and code to Heroku
 
