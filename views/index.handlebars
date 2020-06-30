@@ -1,4 +1,4 @@
-<!-- 5. Output the animalType string, pet boolean and fierceness number to the page for all the animals. -->
+<!-- 5. Output the Burger string, boolean for devoured -->
 
 
 {{!-- <ol style="list-style: none;">
@@ -11,6 +11,21 @@
     </li>
   {{/each}}
 </ol> --}}
+<br>
+	<div class="container">
+{{!-- <ol style="list-style: none;"> --}}
+  {{#each burgers}}
+
+      <div class="row">
+        <div class="col-6 col-md-4"><span class="d-block p-2 alert alert-light ">{{burger_name}}</span></div>
+        <div class="col-6 col-md-2"><button type="button" class="btn btn-primary">Devour It!</button></div>
+        <div class="col-6 col-md-4"><span class="d-block p-2 alert alert-light">Not Devoured</span></div>
+      </div>
+  
+  {{/each}}
+</div>
+<br>
+
 
 <div style="margin:0 auto;width:50%;text-align:center">
 
@@ -31,5 +46,5 @@
 </div>
 
 
-
+<br>
 <h4>Enter a burger you want to eat, Click the "Submit" button.</h4>
